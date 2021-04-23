@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className="bg-green-500 p-4 mb-5">
+    <header className="bg-green-500 p-4">
       <h1 className="text-white text-3xl mb-2">
         <i className="fas fa-virus"></i>
         <span className="text-white font-bold"> Covid-19 Tracker</span>
@@ -19,7 +19,7 @@ const Header = () => {
           covid19api.com
         </a>
       </p>
-    </div>
+    </header>
   );
 };
 
