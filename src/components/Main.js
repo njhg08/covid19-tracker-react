@@ -28,7 +28,7 @@ const Main = () => {
       <div className="mb-4">
         <p className="mb-2 font-bold">Select Data: </p>
         <select
-          className="form-select p-2 max-w-full mb-2"
+          className="form-select p-2 min-w-full mb-2"
           value={selected}
           onChange={(e) => setSelected(e.target.value)}
         >

@@ -5,7 +5,9 @@ const Statistics = ({ data }) => {
   return (
     <div className="flex flex-col items-center mb-4">
       <h2 className="font-bold text-lg">Statistics </h2>
-      <p>(as of {moment(data.Date).format('MMMM Do YYYY, h:mm:ss a')})</p>
+      <p className="text-xs">
+        (as of {moment(data.Date).format('MMMM Do YYYY, h:mm:ss a')})
+      </p>
       <div className="flex flex-col w-full md:flex-row">
         <div className="p-4 flex-1">
           <h3 className="font-bold">Cases</h3>

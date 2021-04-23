@@ -4,7 +4,7 @@ const Rankings = ({ data }) => {
   return (
     <div className="flex flex-col items-center">
       <h2 className="font-bold text-lg mb-4">Rankings</h2>
-      <div className="flex flex-row w-full">
+      <div className="flex flex-col w-full md:flex-row">
         <div className="p-4 flex-1">
           <h3 className="font-bold">Total Cases</h3>
           <ul class="list-decimal list-inside text-center">
