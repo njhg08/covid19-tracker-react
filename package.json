@@ -1,5 +1,6 @@
 {
   "name": "covid-tracker-react",
+  "description": "Covid-19 tracker web app made with React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,5 +44,17 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/njhg08/covid19-tracker-react.git"
+  },
+  "keywords": [
+    "covid-19",
+    "react",
+    "create-react-app",
+    "3rd-party api"
+  ],
+  "author": "Nhicko Jerome Hernandez Garachico",
+  "license": "ISC"
 }
